@@ -1,0 +1,38 @@
+{
+    "root": true,
+    "env": {
+        "node": true,
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "globals": {
+        "exampleGlobalVariable": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-console": 0,
+        "space-infix-ops": "error",
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "space-before-blocks": [
+            "error",
+            "always"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    },
+    "plugins": []
+}
